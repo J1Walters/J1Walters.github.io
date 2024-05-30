@@ -17,6 +17,16 @@
       .main-row {
         min-height: 100vh;
       }
+      .center-box {
+        min-height: 30vh;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+      }
+      .text-box {
+        justify-content: center;
+        text-align: center;
+      }
     </style>
 
     <div class="container-fluid main-container">
@@ -32,8 +42,16 @@
       </nav>
 
       <div class="row main-row justify-content-center align-items-center">
-        <div class="col-8 bg-light">
-          <h1>Test</h1>
+        <div class="col-6 center-box bg-light">
+          <div class="row">
+            <div class="col-4">
+              img
+            </div>
+            <div class="col text-box">
+              <h2>Name</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nam nobis quisquam quasi quae ipsa, quos reiciendis veniam laborum dolorum quo quod, a labore porro est, delectus cupiditate dolor consequuntur.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
